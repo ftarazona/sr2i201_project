@@ -1,2 +1,10 @@
 SG  : T  P  A  A  R  T  A  I  Z  N  O  I  N  E  A  R  
 DSG : 84 80 65 65 82 84 65 73 90 78 79 73 78 69 65 82 
+The configuration has 5 sites.
+The first site has 3 routers.
+3 sites have 2 routers.
+Site 1 has prefix 65.O.O.O
+Site 2 has prefix 75.O.O.O
+Site 3 has prefix 85.O.O.O
+Site 4 has prefix 95.O.O.O
+Site 5 has prefix 5.O.O.O
