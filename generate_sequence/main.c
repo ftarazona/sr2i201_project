@@ -57,14 +57,14 @@ int main(int argc, char *argv[])
 	int already_used[100] = {0};
 	int *A = (int *)malloc(N * sizeof(int));
 	A[0] = (int)sg[3] % 100;
-	printf("Site 1 has prefix %d.O.O.O\n", A[0]);
+	printf("Site 1 has prefix %d.0.0.0\n", A[0]);
 	already_used[A[0]] = 1;
 	for(int i = 1; i < N; ++i)	{
 		A[i] = (A[i - 1] + 10) % 100;
 		while(already_used[A[i]])	{
 			A[i] = (A[i] + 1) % 100;
 		}
-		printf("Site %d has prefix %d.O.O.O\n", i + 1, A[i]);
+		printf("Site %d has prefix %d.0.0.0\n", i + 1, A[i]);
 	}
 
 	return 0;
